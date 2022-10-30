@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-bottom: 40px;
+}
+
+.section01 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.section01__display {
+    min-height: 50px;
+}
+
+.section02 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+}
+
+.section02__display {
+    margin-bottom: 0;
+}
