@@ -28,3 +28,10 @@
 .section02__display {
     margin-bottom: 0;
 }
+
+.section06 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}

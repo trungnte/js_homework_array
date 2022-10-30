@@ -40,7 +40,7 @@
                     <div class="alert alert-success section02__display">
                         <span id="txtResultSumPositiveNumbers"> </span>
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="()">Tính tổng số dương</button>
+                    <button type="button" class="btn btn-primary" onclick="sumPositiveNumbers()">Tính tổng số dương</button>
                 </div>
             </div>
         </form>
@@ -54,7 +54,7 @@
                     <div class="alert alert-success section02__display">
                         <span id="txtResultTotalPositiveNumbers"> </span>
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="()">Đếm số dương</button>
+                    <button type="button" class="btn btn-primary" onclick="countPositiveNumbers()">Đếm số dương</button>
                 </div>
             </div>
         </form>
@@ -68,7 +68,7 @@
                     <div class="alert alert-success section02__display">
                         <span id="txtResultMin"> </span>
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="()">Tìm số nhỏ nhất</button>
+                    <button type="button" class="btn btn-primary" onclick="findMin()">Tìm số nhỏ nhất</button>
                 </div>
             </div>
         </form>
@@ -82,7 +82,7 @@
                     <div class="alert alert-success section02__display">
                         <span id="txtResultMinPositive"> </span>
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="()">Tìm số nhỏ dương nhất</button>
+                    <button type="button" class="btn btn-primary" onclick="findMinPositive()">Tìm số nhỏ dương nhất</button>
                 </div>
             </div>
         </form>
@@ -97,7 +97,7 @@
                     <div class="alert alert-success section02__display">
                         <span id="txtResultLastEvenNumber"> </span>
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="()">Tìm số chẵn cuối cùng</button>
+                    <button type="button" class="btn btn-primary" onclick="findLastEvenNumber()">Tìm số chẵn cuối cùng</button>
                 </div>
             </div>
         </form>
@@ -107,11 +107,15 @@
         <form>
             <div class="mb-3">
                 <label class="form-label section01__label">6.Đổi chỗ 2 giá trị trong mảng theo vị trí</label>
+                <div class="section06">
+                    <input type="number" step=1 class="form-control section06__input" id="inputNumber061">
+                    <input type="number" step=1 class="form-control section06__input" id="inputNumber062">
+                </div>
                 <div class="section02">
                     <div class="alert alert-success section02__display">
                         <span id="txtResultSwap2Numbers"> </span>
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="()">Đổi chỗ</button>
+                    <button type="button" class="btn btn-primary" onclick="swapNumbers()">Đổi chỗ</button>
                 </div>
             </div>
         </form>
@@ -125,7 +129,7 @@
                     <div class="alert alert-success section02__display">
                         <span id="txtResultAscArray"> </span>
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="()">Sắp xếp tăng dần</button>
+                    <button type="button" class="btn btn-primary" onclick="orderAsc()">Sắp xếp tăng dần</button>
                 </div>
             </div>
         </form>
@@ -150,9 +154,9 @@
         <form>
             <div class="mb-3">
                 <hr>
-                <label for="inputNumber01" class="form-label section01__label">9.Nhập thêm mảng số thực, tìm xem bao nhiêu số nguyên</label>
+                <label for="inputNumber09" class="form-label section01__label">9.Nhập thêm mảng số thực, tìm xem bao nhiêu số nguyên</label>
                 <div class="section01">
-                    <input type="number" step=1 class="form-control section01__input" id="inputNumber01">
+                    <input type="number" step=1 class="form-control section01__input" id="inputNumber09">
                     <button type="button" class="btn btn-primary section01__btn" onclick="addMoreNumber()">Thêm số vào mảng</button>
                 </div>
 
